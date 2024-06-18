@@ -1,0 +1,11 @@
+{
+  "name": "DynamoDB",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.598.0",
+    "dotenv": "^16.4.5"
+  }
+}
