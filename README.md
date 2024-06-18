@@ -1,19 +1,19 @@
 # 简介, Introduction
-这个项目是用 Node，运行 AWS SDK 连接 AWS DynamoDB 的测试项目。
+这个项目是用 Node，运行 AWS SDK 连接 AWS DynamoDB 的测试项目。  
 This project is a test application built with Node.js, utilizing the AWS SDK to connect to AWS DynamoDB.
 
 # 参考资料, References
 
 ## 本项目用到的参考, Resources used in this project
-GitHub 上可参考代码
-You can find reference code on GitHub
+GitHub 上可参考代码  
+You can find reference code on GitHub  
 [DynamoDB code examples for the SDK for JavaScript (v3)](https://github.com/awsdocs/aws-doc-sdk-examples/tree/main/javascriptv3/example_code/dynamodb#code-examples)
 
-DynamoDB 官方文档，包含下面 APIReference
-DynamoDB official documentation, including the API Reference
+DynamoDB 官方文档，包含下面 APIReference  
+DynamoDB official documentation, including the API Reference  
 [Amazon DynamoDB Documentation](https://docs.aws.amazon.com/dynamodb/)
 
-APIReference
+APIReference  
 [Amazon DynamoDB](https://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_Operations_Amazon_DynamoDB.html)
 
 ## SDK for JS 资源, SDK for JavaScript resources
