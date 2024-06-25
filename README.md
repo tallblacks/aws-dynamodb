@@ -34,6 +34,14 @@ AWS SDK for JavaScript v3 Node.JS 包的文档
 Documentation for AWS SDK for JavaScript v3 Node.js package  
 [@aws-sdk/client-dynamodb](https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/Package/-aws-sdk-client-dynamodb/x`)
 
+AWS 官方例子 - 笔记应用程序  
+AWS official sample app  
+[A simple note taking application using modular AWS SDK for JavaScript (v3)](https://github.com/aws-samples/aws-sdk-js-notes-app)
+
+AWS 官方 - 测试例子  
+AWS official sample testing  
+[Code Sample for testing AWS SDK for JavaScript](https://github.com/aws-samples/aws-sdk-js-tests)
+
 # 开发步骤，Development Steps
 
 ## 涉及到的包，Packages Involved
