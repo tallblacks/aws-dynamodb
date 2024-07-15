@@ -12,13 +12,23 @@ const client = new DynamoDBClient({
 
 export const main = async () => {
     const command = new PutItemCommand({
-        TableName: "ethan-timeline",
+        TableName: "EthanTimeline",
         Item: {
-            date: { S: "23/06/2024" },
-            type: { S: "Attractions" },
-            event: { S: "Temple of Heaven" },
-            description: { S: "Beijing, China" },
-            timelineOrder: { N: "2024062300" },
+            date: { S: "24/05/2024" },
+            type: { S: "Subway" },
+            event: { S: "The first subway ride was on the Shenzhen Metro, China" },
+            description: { S: "Experienced a round-trip train journey from Britomart to NewMarket in Auckland in 2023" },
+            timelineOrder: { N: "2024052420" },
+            /*hotel: { M: {
+                hotelGroup: { S: "Hyatt Hotels Corporation" },
+                hotelBrand: { S: "Grand Hyatt" },
+                hotelName: { S: "Grand Hyatt Beijing" },
+                hotelCity: { S: "Beijing" },
+                hotelCountry: { S: "China" },
+                checkInDate: { S: "13/07/2024" },
+                checkOutDate: { S: "14/07/2024" },
+                numberOfNights: { N: "1" }
+            }}*/
         },
     })
   
